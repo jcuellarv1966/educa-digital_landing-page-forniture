@@ -34,29 +34,30 @@ import Avatar3Img from './assets/img/avatar-3.png';
 import Avatar4Img from './assets/img/avatar-4.png';
 
 export const navigation = [
-  {
-    name: 'home',
-    href: 'home',
-  },
-  {
-    name: 'about',
-    href: 'about',
-  },
-  {
-    name: 'features',
-    href: 'features',
-  },
-  {
-    name: 'contact',
-    href: 'contact',
-  },
+  { name: "Nosotros", href: "/" },
+  { name: "Productos", href: "/" },
+  { name: "Proyectos", href: "/" },
+  { name: "Noticias", href: "/" },
+  { name: "Tarifas", href: "/" },
+  { name: "Testimonios", href: "/" },
+  { name: "FAQ", href: "/" },
+  { name: "Contactanos", href: "/" },
 ];
 
 export const hero = {
-  title: 'Creative Home Simpify your Furniture',
+  title: 'Incrementa la rentabilidad de tus Activos Financieros ...',
   subtitle:
-    'Do i have consent to record this meeting gain locaion, root-and-branch, review, nor game plan who’s the goto',
-  buttonText: 'Shop Now',
+    'Precisión inigualable para encontrar antes que otros, a los Activos más rentables. Usando señales de compra/venta impulsadas por IA que te indican cuándo entrar y salir ...',
+  buttonText: 'Registrate',
+};
+
+export const banner = {
+  titlePart1: "Incrementa la rentabilidad de tus Activos Financieros ...",
+  titlePart2: "– Como nunca antes.",
+  subtitle:
+    "Precisión inigualable para encontrar antes que otros, a los Activos más rentables. Usando señales de compra/venta impulsadas por IA que te indican cuándo entrar y salir ...",
+  textBtn: "Unete Ahora !!!",
+  img: "",
 };
 
 export const stats = [

@@ -3,7 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Saira",
+      primary: "Candara",
+      secondary: "Calibri",
     },
     container: {
       padding: {
@@ -19,7 +20,18 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#23262F",
+        primary: {
+          100: "#a5ffce",
+          200: "#4ae290",
+          300: "25c870",
+        },
+        neutral: {
+          100: "#ffffff",
+          200: "#dedee3",
+          300: "#9797a1",
+          400: "#595962",
+          500: "#131316",
+        },
         accent: "#286F6C",
         grey: {
           DEFAULT: "#919297",
@@ -31,7 +43,7 @@ export default {
         pink: "pink",
       },
       backgroundImage: {
-        hero: 'url("/src/assets/img/hero-bg.png")',
+        hero: 'url("/src/assets/img/hero-bg_2.jpg")',
         newsletter: 'url("/src/assets/img/newsletter.png")',
       },
       dropShadow: {

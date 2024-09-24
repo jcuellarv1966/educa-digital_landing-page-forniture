@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Logo from "../assets/img/logo.svg";
+import Logo from "../assets/img/logo.png";
 import { footer } from "../data";
 
 const Footer = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-center">
-          &copy; FurniShop 2022 - All Rights Reserved.
+          &copy; Educa Digital 2024 - All Rights Reserved.
         </p>
       </div>
     </footer>

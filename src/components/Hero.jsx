@@ -1,25 +1,47 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { hero } from "../data";
+import { banner } from "../data";
 import Stats from "./Stats";
 
 const Hero = () => {
-  const { title, subtitle, buttonText } = hero;
+  // const { title, subtitle, buttonText } = hero;
+  const { titlePart1, titlePart2, subtitle, textBtn } = banner;
 
   return (
     <section className="h-full max-h-[850px] w-full bg-hero bg-right lg:bg-center bg-cover bg-no-repeat text-white pt-[225px] pb-[254px] relative mb-12 lg:mb-28">
-      <div className="container mx-auto text-center">
-        <h1 className="text-2xl lg:text-[64px] lg:leading-tight lg:max-w-[888px] mx-auto font-semibold mb-[30px]">
-          {title}
-        </h1>
-        <h2 className="mb-[30px] lg:mb-[65px] max-w-[627px] mx-auto lg:text-xl">
-          {subtitle}
-        </h2>
-        <button className="px-[35px] lg:px-[80px] py-[9px] lg:py-[16px] mb-[160px] lg:mb-[194px] text-xl rounded-md bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.5)] backdrop-blur-md transition">
-          {buttonText}
-        </button>
-        <div className="-top-[70px] relative">
-          <Stats />
+      <div className="container mx-auto h-full">
+        <div className="flex items-center h-full relative -space-x-48 lg:-space-x-24">
+          <div className="text-white flex-1 z-10 pl-6 lg:pl-0">
+            <h1
+              className="h1 text-white mb-8"
+              data-aos="fade-down"
+              data-aos-delay="500"
+            >
+              {titlePart1} <br />
+              <span className="text-primary-200">{titlePart2}</span>
+            </h1>
+            <p
+              className="max-w-[415px] text-body-md lg:text-body-lg mb-8"
+              data-aos="fade-down"
+              data-aos-delay="600"
+            >
+              {subtitle}
+            </p>
+            <button
+              className="btn btn-sm lg:btn-lg btn-secondary"
+              data-aos="fade-down"
+              data-aos-delay="700"
+            >
+              {textBtn}
+            </button>
+          </div>
+          {/* image */}
+          <div
+            className="bg-purple-50 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1"
+            data-aos="fade-right"
+            data-aos-delay="900"
+          ></div>
         </div>
       </div>
     </section>

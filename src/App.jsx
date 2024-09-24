@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="w-full max-w-[1440px] mx-auto bg-white">
+    <div className="max-w-[1440px] mx-auto bg-page overflow-hidden relative">
       <Header />
       <Hero />
       <Features />

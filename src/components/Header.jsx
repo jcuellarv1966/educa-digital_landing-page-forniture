@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
-import Logo from "../assets/img/logo.svg";
+import Logo from "../assets/img/logo.png";
 import { CgMenuRight, CgClose } from "react-icons/cg";
 import { navigation } from "../data";
 import NavMobile from "./NavMobile";
@@ -8,23 +8,26 @@ import NavMobile from "./NavMobile";
 const Header = () => {
   const [bg, setBg] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+  const [navMobile, setNavMobile] = useState(false);
+
+  /* useEffect(() => {
+    window.addEventListener("scroll", () => {
+      return window.scrollY > 50 ? setBg(true) : setBg(false);
+    });
+  }); */
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      return window.scrollY > 50 ? setBg(true) : setBg(false);
+      window.scrollY > 80 ? setIsActive(true) : setIsActive(false);
     });
   });
 
   return (
     <header
       className={`${
-        // if bg is true
-        bg
-          ? "bg-primary py-4 lg:py-6"
-          : // if bg is false
-            "bg-none"
-      }
-      fixed left-0 py-8 z-10 w-full transition-all duration-200`}
+        isActive ? "bg-neutral-500 py-[16px]" : "bg-transparent py-[20px]"
+      } fixed max-w-[1440px] left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] z-30 transition-all duration-300`}
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
