@@ -44,7 +44,7 @@ export default {
       },
       backgroundImage: {
         hero: 'url("/src/assets/img/hero-bg_2.jpg")',
-        newsletter: 'url("/src/assets/img/newsletter.png")',
+        newsletter: 'url("/src/assets/img/newsletter.jpg")',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",

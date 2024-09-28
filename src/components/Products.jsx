@@ -10,8 +10,8 @@ const Products = () => {
     <section className="section text-center">
       <div className="container mx-auto">
         <div>
-          <h2 className="title">{title}</h2>
-          <p className="max-w-[639px] mx-auto mb-[50px] lg:mb-[70px]">
+          <p className="title text-3xl">{title}</p>
+          <p className="max-w-[639px] mx-auto mb-[50px] lg:mb-[70px] text-xl">
             {subtitle}
           </p>
         </div>

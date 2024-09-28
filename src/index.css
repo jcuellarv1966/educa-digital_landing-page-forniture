@@ -7,7 +7,7 @@
     @apply bg-grey-3 font-primary text-base leading-relaxed;
   }
   .section {
-    @apply py-[50px] lg:py-[70px];
+    @apply py-[10px] lg:py-[20px];
   }
   .title {
     @apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
@@ -69,10 +69,10 @@
     @apply text-neutral-500 text-sm uppercase font-extrabold tracking-[1px];
   }
   .section {
-    @apply pb-[80px] md:pb-[110px] lg:pb-[180px];
+    @apply pb-[0px] md:pb-[0px] lg:pb-[0px];
   }
   .section-title-group {
-    @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px];
+    @apply flex items-center justify-center -space-x-20 mb-[0px] lg:mb-[0px];
   }
   .section-title {
     @apply flex -space-x-4;

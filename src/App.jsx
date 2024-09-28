@@ -4,7 +4,9 @@ import Features from "./components/Features";
 import FeaturesSecond from "./components/FeaturesSecond";
 import NewItems from "./components/NewItems";
 import Products from "./components/Products";
+import Pricing from "./components/Pricing";
 import Testimonial from "./components/Testimonial";
+import Faq from "./components/Faq";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
@@ -17,7 +19,9 @@ function App() {
       <NewItems />
       <FeaturesSecond />
       <Products />
+      <Pricing />
       <Testimonial />
+      <Faq />
       <Newsletter />
       <Footer />
     </div>

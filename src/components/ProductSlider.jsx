@@ -38,10 +38,10 @@ const ProductsSlider = () => {
                         <HiPlus className="text-xl text-primary" />
                       </div>
                     </div>
-                    <div className="font-semibold lg:text-xl">{name}</div>
+                    <div className="font-semibold lg:text-xl text-center">{name}</div>
                     <div className="flex items-center gap-x-3">
-                      <div>$ {price}</div>
-                      <div className="text-[15px] text-grey line-through">
+                      <div className="text-white">$ {price}</div>
+                      <div className="text-[15px] text-white line-through">
                         $ {oldPrice}
                       </div>
                     </div>
