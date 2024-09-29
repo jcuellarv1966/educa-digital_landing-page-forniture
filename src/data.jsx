@@ -49,7 +49,7 @@ export const header = {
 export const navigation = [
   { name: "Nosotros", href: "/", url: "#who-we-are" },
   { name: "Productos", href: "/", url: "#products" },
-  { name: "Proyectos", href: "/", url: "#projects" },
+  { name: "Servicios", href: "/", url: "#projects" },
   { name: "Noticias", href: "/", url: "#news" },
   { name: "Tarifas", href: "/", url: "#pricing" },
   { name: "Testimonios", href: "/", url: "#testimonial" },

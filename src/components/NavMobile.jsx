@@ -9,7 +9,7 @@ const NavMobile = () => {
         {navigation.map((item, index) => {
           return (
             <li key={index}>
-              <a className="text-xl font-medium capitalize" href={item.href}>
+              <a className="text-xl font-medium capitalize" href={item.url}>
                 {item.name}
               </a>
             </li>
