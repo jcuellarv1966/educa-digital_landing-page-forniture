@@ -7,7 +7,7 @@ const NewItems = () => {
   const { title, subtitle, link, icon } = newInStore;
 
   return (
-    <section className="section relative overflow-hidden lg:min-h-[540px] mt-[64px] sm:mt-[64px] md:mt-[96px] lg:mt-[-160px]">
+    <section className="section relative overflow-hidden lg:min-h-[540px] mt-[64px] sm:mt-[64px] md:mt-[96px] lg:mt-[-160px] pt-24" id="products">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="flex md:flex-col items-baseline gap-x-6 mb-2 lg:mb-0">

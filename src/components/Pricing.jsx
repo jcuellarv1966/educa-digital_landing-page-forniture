@@ -7,7 +7,7 @@ const Pricing = () => {
   const { icon, title, plans } = pricing;
 
   return (
-    <section className="section">
+    <section className="section pt-24" id="pricing">
       <div className="section-title-group max-w-[540px] mx-auto px-4 lg:px-0">
         <img src={icon} alt="" />
         <h2 className="h2 section-title">

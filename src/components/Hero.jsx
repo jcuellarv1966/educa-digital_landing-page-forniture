@@ -14,18 +14,18 @@ const Hero = () => {
         <div className="flex items-center h-full relative -space-x-48 lg:-space-x-24">
           <div className="text-white flex-1 z-10 pl-6 lg:pl-0">
             <h1
-              className="h1 text-white mb-8 [text-shadow:_0_1px_0_rgb(0_0_0_/_90%)]"
+              className="h1 text-white mb-8 [text-shadow:_0_5px_0_rgb(0_0_0_/_90%)]"
             >
               {titlePart1} <br />
-              <span className="text-primary-200 [text-shadow:_0_1px_0_rgb(0_0_0_/_90%)]">{titlePart2}</span>
+              <span className="text-primary-200 [text-shadow:_0_5px_0_rgb(0_0_0_/_90%)]">{titlePart2}</span>
             </h1>
             <p
-              className="max-w-[415px] text-body-md lg:text-body-lg mb-8 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]"
+              className="max-w-[415px] text-body-md lg:text-body-lg mb-8 [text-shadow:_0_3px_0_rgb(0_0_0_/_90%)] font-extrabold"
             >
               {subtitle}
             </p>
             <button
-              className="btn btn-sm lg:btn-lg btn-secondary"
+              className="btn btn-sm lg:btn-lg btn-secondary rounded-lg bg-red-500 text-white hover:bg-red-800"
             >
               {textBtn}
             </button>

@@ -7,7 +7,7 @@ const Products = () => {
   const { title, subtitle } = products;
 
   return (
-    <section className="section text-center">
+    <section className="section text-center pt-24">
       <div className="container mx-auto">
         <div>
           <p className="title text-3xl">{title}</p>

@@ -43,8 +43,8 @@ export default {
         pink: "pink",
       },
       backgroundImage: {
-        hero: 'url("/src/assets/img/hero-bg_2.jpg")',
-        newsletter: 'url("/src/assets/img/newsletter.jpg")',
+        hero: 'url("/src/assets/img/hero-bg_3.jpg")',
+        newsletter: 'url("/src/assets/img/newsletter2.jpg")',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",

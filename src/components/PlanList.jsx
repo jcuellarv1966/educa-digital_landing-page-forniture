@@ -14,14 +14,14 @@ const PlanList = ({ plans }) => {
           <div
             onClick={() => setIndex(currentIndex)}
             key={currentIndex}
-            className="w-full md:max-w-[620px] lg:max-w-[405px] rounded-sm px-4 lg:min-h-[550px]"
+            className="w-full md:max-w-[620px] lg:max-w-[405px] px-4 lg:min-h-[550px]"
           >
             <div
               className={`${
                 currentIndex === index
                   ? "bg-neutral-500 text-white"
                   : "bg-neutral-400/10 text-neutral-500"
-              } flex justify-center items-center py-[40px] px-[30px] lg:min-h-[550px] transition duration-100`}
+              } flex justify-center items-center py-[40px] px-[30px] lg:min-h-[550px] transition duration-100 rounded-2xl`}
             >
               <div className="flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center">
                 <div>
@@ -64,7 +64,7 @@ const PlanList = ({ plans }) => {
                       currentIndex === index
                         ? "bg-white text-neutral-500"
                         : "border border-neutral-500"
-                    } btn btn-lg rounded-[1px] lg:mx-auto`}
+                    } btn btn-lg rounded-[12px] lg:mx-auto`}
                   >
                     Unete Ahora
                   </button>

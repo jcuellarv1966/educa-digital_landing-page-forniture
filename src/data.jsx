@@ -41,15 +41,20 @@ import Avatar2Img from "./assets/img/avatar-2.png";
 import Avatar3Img from "./assets/img/avatar-3.png";
 import Avatar4Img from "./assets/img/avatar-4.png";
 
+export const header = {
+  btnLoginText: "Log in",
+  btnSignupText: "Sign Up",
+};
+
 export const navigation = [
-  { name: "Nosotros", href: "/" },
-  { name: "Productos", href: "/" },
-  { name: "Proyectos", href: "/" },
-  { name: "Noticias", href: "/" },
-  { name: "Tarifas", href: "/" },
-  { name: "Testimonios", href: "/" },
-  { name: "FAQ", href: "/" },
-  { name: "Contactanos", href: "/" },
+  { name: "Nosotros", href: "/", url: "#who-we-are" },
+  { name: "Productos", href: "/", url: "#products" },
+  { name: "Proyectos", href: "/", url: "#projects" },
+  { name: "Noticias", href: "/", url: "#news" },
+  { name: "Tarifas", href: "/", url: "#pricing" },
+  { name: "Testimonios", href: "/", url: "#testimonial" },
+  { name: "FAQ", href: "/", url: "#faq" },
+  { name: "Contactanos", href: "/", url: "#contact-us" },
 ];
 
 export const hero = {
@@ -124,7 +129,7 @@ export const features = {
 export const newInStore = {
   title: "Nuestros Productos",
   subtitle:
-    "Obtenga nuestros Productos inmediatamente con Precios Promocionales",
+    "Obtenga nuestros Productos con Precios Promocionales",
   link: "Mostrar Todos",
   icon: <IoIosArrowRoundForward />,
   products: [

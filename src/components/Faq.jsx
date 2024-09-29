@@ -7,7 +7,7 @@ const Faq = () => {
   const { icon, title, accordions } = faq;
 
   return (
-    <section className="section pt-[8px] lg:pt-[16px] mb-[8px] lg:mb-0">
+    <section className="section pt-16 lg:pt-24 mb-[8px] lg:mb-0" id="faq">
       <div className="max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center lg:h-[1160px] lg:pt-4">
         {/* section title */}
         <div

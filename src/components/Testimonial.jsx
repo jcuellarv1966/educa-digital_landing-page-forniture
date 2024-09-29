@@ -7,7 +7,7 @@ const Testimonial = () => {
   const { image, title } = testimonial;
 
   return (
-    <section className="section mt-16 mb-10">
+    <section className="section mt-16 mb-10 pt-24" id="testimonial">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-x-10 gap-y-2">
           <div className="lg:max-w-[50%]">
